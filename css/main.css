@@ -1934,7 +1934,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd598e;
+  background: #fff4a1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2780,7 +2780,7 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900");
+  background: url("https://api.spencerwoo.com");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
