@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://rocinantie.github.io/"/>
   <updated>2018-10-14T05:09:39.804Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://rocinantie.github.io/</id>
   
   <author>
     <name>Zephyr Schlacht</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>王大人</title>
-    <link href="http://yoursite.com/2018/10/13/%E7%8E%8B%E5%A4%A7%E4%BA%BA/"/>
-    <id>http://yoursite.com/2018/10/13/王大人/</id>
+    <link href="https://rocinantie.github.io/2018/10/13/%E7%8E%8B%E5%A4%A7%E4%BA%BA/"/>
+    <id>https://rocinantie.github.io/2018/10/13/王大人/</id>
     <published>2018-10-13T15:11:30.000Z</published>
     <updated>2018-10-14T05:09:39.804Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/13/hello-world/"/>
-    <id>http://yoursite.com/2018/10/13/hello-world/</id>
+    <link href="https://rocinantie.github.io/2018/10/13/hello-world/"/>
+    <id>https://rocinantie.github.io/2018/10/13/hello-world/</id>
     <published>2018-10-13T08:46:25.000Z</published>
     <updated>2018-10-14T05:11:06.827Z</updated>
     
