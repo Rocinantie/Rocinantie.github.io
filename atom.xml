@@ -5,9 +5,9 @@
   <subtitle>Private plots on the Internet</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://rocinantie.github.io/"/>
+  <link href="https://haufig.ink/"/>
   <updated>2018-11-11T02:45:19.593Z</updated>
-  <id>https://rocinantie.github.io/</id>
+  <id>https://haufig.ink/</id>
   
   <author>
     <name>Zephyr Schlacht</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://rocinantie.github.io/2018/10/13/hello-world/"/>
-    <id>https://rocinantie.github.io/2018/10/13/hello-world/</id>
+    <link href="https://haufig.ink/2018/10/13/hello-world/"/>
+    <id>https://haufig.ink/2018/10/13/hello-world/</id>
     <published>2018-10-13T08:46:25.000Z</published>
     <updated>2018-11-11T02:45:19.593Z</updated>
     
@@ -34,7 +34,7 @@
     </summary>
     
     
-      <category term="Init" scheme="https://rocinantie.github.io/tags/Init/"/>
+      <category term="Init" scheme="https://haufig.ink/tags/Init/"/>
     
   </entry>
   
