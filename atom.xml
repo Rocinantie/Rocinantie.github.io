@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://haufig.ink/"/>
-  <updated>2019-01-02T05:55:12.054Z</updated>
+  <updated>2018-11-11T02:45:19.593Z</updated>
   <id>https://haufig.ink/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Rendering</title>
-    <link href="https://haufig.ink/2019/01/02/Rendering/"/>
-    <id>https://haufig.ink/2019/01/02/Rendering/</id>
-    <published>2019-01-02T05:52:55.000Z</published>
-    <updated>2019-01-02T05:55:12.054Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/2019/01/02/Rendering/D:/Blog\source\_posts\2019-01-02-Rendering\Snipaste_2019-01-02_13-48-31.png" alt="网站测速"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;/2019/01/02/Rendering/D:/Blog\source\_posts\2019-01-02-Rendering\Snipaste_2019-01-02_13-48-31.png&quot; alt=&quot;网站测速&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
