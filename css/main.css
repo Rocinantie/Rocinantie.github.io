@@ -2029,7 +2029,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cce9bf;
+  background: #ffa432;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2891,15 +2891,17 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("https://source.unsplash.com/random/1920x1080");
+  background: url("https://i.loli.net/2018/09/17/5b9f2fd3ec9d2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
 }
+<body>,
+</body>,
 .main-inner {
   margin-top: 60px;
   padding: 60px 60px 60px 60px;
   background: #fff;
-  opacity: 0.9;
+  opacity: 0.85;
   min-height: 500px;
 }
