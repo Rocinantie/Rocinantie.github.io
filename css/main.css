@@ -1993,7 +1993,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1fff57;
+  background: #821f3e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2832,7 +2832,7 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("https://i.loli.net/2019/03/12/5c877746d1201.png");
+  background: url("https://bannero.herokuapp.com");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
