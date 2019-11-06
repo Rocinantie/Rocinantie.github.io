@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://haufig.ink/about/index.html</loc>
+    <loc>https://haufig.ink/2019/05/15/2019-5-15-VS-Code/</loc>
     
-    <lastmod>2019-05-15T04:56:55.747Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://haufig.ink/2019/03/10/fansub-group-and-copyright-theft/</loc>
-    
-    <lastmod>2019-03-25T03:52:42.642Z</lastmod>
+    <lastmod>2019-11-06T02:09:48.415Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://haufig.ink/2018/10/13/hello-world/</loc>
     
-    <lastmod>2019-03-11T05:04:59.794Z</lastmod>
+    <lastmod>2019-11-06T02:05:44.567Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://haufig.ink/2019/03/10/fansub-group-and-copyright-theft/</loc>
+    
+    <lastmod>2019-11-06T01:59:11.547Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://haufig.ink/about/index.html</loc>
+    
+    <lastmod>2019-05-15T04:56:55.747Z</lastmod>
     
   </url>
   
