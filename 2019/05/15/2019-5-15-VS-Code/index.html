@@ -164,26 +164,26 @@
 <li><p><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a> 巨硬开发，一个运行于 Mac, Windows 和 Linux 上的免费开源的、轻量级代码编辑器。</p>
 </li>
 </ul>
-<p>其中我最推荐的还是 Visual Studio Code （下称 VSCode）</p>
+<p>其中我最推荐的还是 Visual Studio Code （下称 VS Code）</p>
 <p>高颜值，响应快，内置 terminal，配合 C/C++ 插件，完美支持语法高亮与代码补全。</p>
-<h1 id="开始吧！"><a href="#开始吧！" class="headerlink" title="开始吧！"></a>开始吧！</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>首先到<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">官网</a>下载安装 VSCode</p>
+<h1 id="开始吧！"><a href="#开始吧！" class="headerlink" title="开始吧！"></a>开始吧！</h1><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>首先到<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">官网</a>下载安装 VS Code</p>
 <p>推荐 stable 版本的</p>
-<p><img alt="download VSCode.png" class="post-img b-lazy" data-img="https://i.loli.net/2019/05/16/5cdd70eaa7c1c80388.png" data-index="0" data-src="https://i.loli.net/2019/05/16/5cdd70eaa7c1c80388.png"></p>
+<p><img alt="download VS Code.png" class="post-img b-lazy" data-img="https://i.loli.net/2019/05/16/5cdd70eaa7c1c80388.png" data-index="0" data-src="https://i.loli.net/2019/05/16/5cdd70eaa7c1c80388.png"></p>
 <p>编译器选择 MinGW，构建工具选择 CMake，它们分别可以在<a href="https://sourceforge.net/projects/mingw-w64/files/latest/download" target="_blank" rel="noopener">MinGW</a>和<a href="https://github.com/Kitware/CMake/releases/download/v3.14.4/cmake-3.14.4-win64-x64.zip" target="_blank" rel="noopener">CMake</a>下载到</p>
 <p>安装完毕后确保它们已经被加入了环境变量，可以通过在 cmd 或是 Powershell 中输入 gcc g++ cmake 来确认，如果输出的是类似下面的内容就说明环境变量已经正确配置</p>
 <p><img alt="install.png" class="post-img b-lazy" data-img="https://i.loli.net/2019/05/16/5cdd74cd1a74922992.png" data-index="1" data-src="https://i.loli.net/2019/05/16/5cdd74cd1a74922992.png"></p>
-<h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>打开 VSCode ，在左侧插件市场中搜索安装 C/C++、CMake、CMake Tools 插件，如果有需要，也可以搜索安装中文插件</p>
-<h2 id="配置工作区"><a href="#配置工作区" class="headerlink" title="配置工作区"></a>配置工作区</h2><p>在你准备存放代码的地方新建一个文件夹作为工作区并在 VSCode 中打开它，然后将模板文件复制进去，可以在<a href="https://send.firefox.com/download/f3fd4b3aa9969759/#wJF_568AJv95IY5pvnrH7w" target="_blank" rel="noopener">这里</a>或<a href="https://mega.nz/#!vyxxmSpS" target="_blank" rel="noopener">这里</a>下载到</p>
+<h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>打开 VS Code，在左侧插件市场中搜索安装 C/C++、CMake、CMake Tools 插件，如有需要，也可以搜索安装中文插件</p>
+<h2 id="配置工作区"><a href="#配置工作区" class="headerlink" title="配置工作区"></a>配置工作区</h2><p>在你准备存放代码的地方新建一个文件夹作为工作区并在 VS Code 中打开它，然后将模板文件复制进去，可以在<a href="https://mega.nz/#!ayIinAhA!cvidUXBBQEiKs8bEiL1LLNDNdU_px6xZpICg8bxCW6I" target="_blank" rel="noopener">这里</a>下载到</p>
 <p>如果一切正常，那么现在工作区的目录应该是这样的：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">C:.</span><br><span class="line">|   CMakeLists.txt</span><br><span class="line">|   </span><br><span class="line">+---.vscode</span><br><span class="line">|       c_cpp_properties.json</span><br><span class="line">|       launch.json</span><br><span class="line">|       tasks.json</span><br><span class="line">|       </span><br><span class="line">+---include</span><br><span class="line">|       Class.h</span><br><span class="line">|       </span><br><span class="line">\---src</span><br><span class="line">        Class.cpp</span><br><span class="line">        main.cpp</span><br></pre></td></tr></table></figure>
 <ul>
 <li>CMakeLists.txt 是 CMake 的构建文档</li>
 <li>include 文件夹用来放置头文件</li>
 <li>src 文件夹用来放置源文件</li>
-<li>.vscode 是 VSCode 的配置文件</li>
+<li>.vscode 是 VS Code 的配置文件</li>
 </ul>
 <p>我日常使用的界面如下</p>
-<p><img alt="VSCode.png" class="post-img b-lazy" data-img="https://i.loli.net/2019/05/17/5cde0d42f1fdc83149.png" data-index="2" data-src="https://i.loli.net/2019/05/17/5cde0d42f1fdc83149.png"></p>
+<p><img alt="VS Code.png" class="post-img b-lazy" data-img="https://i.loli.net/2019/05/17/5cde0d42f1fdc83149.png" data-index="2" data-src="https://i.loli.net/2019/05/17/5cde0d42f1fdc83149.png"></p>
 <ul>
 <li><p>左边一栏是资源管理器，可以显示调试的相关信息，包括查看变量与观察栈帧</p>
 </li>
