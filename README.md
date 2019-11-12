@@ -14,3 +14,4 @@ https://haufig.ink
 
 > Zephyr Schlacht maintained blog. Powered by Hexo.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b364751-1284-436e-a3c7-4cdce7351a1b/deploy-status)](https://app.netlify.com/sites/rocinantie/deploys)
